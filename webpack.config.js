@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, "build"),
     filename: "index.js",    
     library: {
-      name: 'sidebar-menu-fvg',
+      name: 'shared-sidebar-menu-fvg',
       type: 'umd',
     },
     globalObject: "this",

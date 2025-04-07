@@ -1,5 +1,5 @@
 {
-    "name": "sidebar-menu-fvg",
+    "name": "shared-sidebar-menu-fvg",
     "version": "0.1.11",
     "description": "A reusable sidebar menu component for React applications.",
     "main": "./build/index.js",
@@ -24,7 +24,7 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/RafaeLS85/sidebar-menu-react-next.git"
+      "url": "git+https://github.com/rafaelfvg/sidebar-menu-fvg.git"
     },
     "keywords": [
       "react",
@@ -36,9 +36,9 @@
     "author": "Your Name",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/RafaeLS85/sidebar-menu-react-next/issues"
+      "url": "https://github.com/rafaelfvg/sidebar-menu-fvg/issues"
     },
-    "homepage": "https://github.com/RafaeLS85/sidebar-menu-react-next#readme",
+    "homepage": "https://github.com/rafaelfvg/sidebar-menu-fvg#readme",
     "dependencies": {
       "assert": "^2.1.0",
       "browserify-zlib": "^0.2.0",
