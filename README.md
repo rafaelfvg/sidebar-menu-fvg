@@ -4,12 +4,12 @@ A customizable and responsive sidebar menu component for React ande Next applica
 
 ## Installation
 
-You can install the `sidebar-menu-fvg` package using npm or yarn:
+You can install the `shared-sidebar-menu-fvg` package using npm or yarn:
 
 **npm:**
 
 ```bash
-npm install sidebar-menu-fvg
+npm i shared-sidebar-menu-fvg
 ```
 
 
@@ -18,7 +18,7 @@ npm install sidebar-menu-fvg
 ```jsx
 import React from 'react';
 import { useNavigate, Outlet } from 'react-router-dom';
-import SidebarMenu, { SidebarItem } from 'sidebar-menu-fvg';
+import SidebarMenu, { SidebarItem } from 'shared-sidebar-menu-fvg';
 import { FaHome, FaUser, FaCog } from 'react-icons/fa';
 
 const Layout = () => {
@@ -73,7 +73,7 @@ export default Layout;
 'use client'; // This is important for client-side navigation
 
 import React, { useState } from 'react';
-import SidebarMenu, { MenuItem } from 'sidebar-menu-fvg';
+import SidebarMenu, { MenuItem } from 'shared-sidebar-menu-fvg';
 import { FaHome, FaUser, FaCog } from 'react-icons/fa';
 import { useRouter } from 'next/navigation';
 
@@ -146,7 +146,7 @@ export default function AppRouterExample() {
 
 ```jsx
 import React, { useState } from 'react';
-import SidebarMenu, { MenuItem } from 'sidebar-menu-fvg';
+import SidebarMenu, { MenuItem } from 'shared-sidebar-menu-fvg';
 import { FaHome, FaUser, FaCog } from 'react-icons/fa';
 import { useRouter } from 'next/router';
 
