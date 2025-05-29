@@ -259,6 +259,7 @@ const SidebarMenu = ({ handleNavigation, isActive, items, permissions }) => {
                   updateList={updateList}
                   handleNavigation={handleNavigation}
                   isActive={isActive}
+                  permissions={permissions}
                 />
               )}
             </li>
