@@ -53,6 +53,7 @@ export const styles = {
   subMenuMainTitle: {
     marginLeft: '0.5rem',
     whiteSpace: 'nowrap',
+    flexGrow: 1, 
   },
   subMenuMainTitleHover: {
     fontWeight: '500',

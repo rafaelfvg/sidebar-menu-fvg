@@ -1,9 +1,9 @@
 {
     "name": "shared-sidebar-menu-fvg",
-    "version": "0.1.12",
+    "version": "0.1.13",
     "description": "A reusable sidebar menu component for React applications.",
-    "main": "./build/index.js",
-    "module": "./build/index.js",
+    "main": "./build/index.js",    
+    "module": "./build/index.esm.js",
     "types": "./build/index.d.ts",
     "files": [
       "build",
