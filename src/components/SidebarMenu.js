@@ -202,7 +202,7 @@ const menuReducer = (state, action) => {
 
 const SidebarMenu = ({ handleNavigation, isActive, items, permissions }) => {
   const [state, dispatch] = useReducer(menuReducer, {
-    isOpenMenu: true,
+    isOpenMenu: false,
     items: items,
   });
   const { isOpenMenu, items: menuItems } = state;
